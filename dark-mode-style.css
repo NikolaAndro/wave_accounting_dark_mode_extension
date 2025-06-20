@@ -1,0 +1,37 @@
+html, body {
+    background-color: #222 !important;
+    color: #fff !important;
+}
+
+.wv-frame .wv-frame__content,
+.wv-top-bar,
+.wv-frame .wv-frame__content__body__side 
+{
+    background-color: #222 !important;
+    color: #ffffff;
+}
+
+.wv-header__title .wv-heading--title,
+.wv-text, .wv-text--body,
+.wv-heading--section-title,
+.wv-text--strong,
+.wv-form--horizontal .wv-form-field>.wv-form-field__label, .wv-form--horizontal .wv-form-field>.wv-form-field__label--align-top, .wv-form--horizontal .wv-form-fieldset--address>.wv-form-field__label, .wv-form--horizontal .wv-form-fieldset--address>.wv-form-field__label--align-top,
+.wv-table__cell, .wv-table__cell--actions, .wv-table__cell--subgroup, .wv-table__cell--grandtotal, .wv-table__cell--amount{
+    color: #ffffff !important;
+}
+
+.wv-app-menu__item__link__label,
+.wv-nav--tertiary .wv-nav__heading,
+.wv-app-menu__item--nested .wv-app-menu__item__link--nested
+{
+    color: var(--global-fg-link-default);
+}
+
+.wv-notify__message>:last-child,
+.wv-text--strong,
+.wv-app-menu__item--nested .wv-app-menu__item__link--nested,
+.wv-heading--title--landing-page,
+.wv-heading--subsection-title, .wv-toast__content__title{
+    color: var(--global-fg-link-default) !important;    
+}
+

@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Wave Dark Mode",
+    "version": "1.0",
+    "description": "A dark mode theme for Wave.",
+    "content_scripts": [
+        {
+            "matches": ["*://*.waveapps.com/*"],
+            "js": ["content.js"],
+            "css": ["dark-mode-style.css"]
+        }
+    ]
+}
